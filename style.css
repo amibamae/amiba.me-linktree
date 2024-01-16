@@ -801,6 +801,12 @@ body {
     498px 1947px #E9F732, 617px 880px #E9F732, 240px 403px #E9F732;
 }
 
+#text-wrapper {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+}
 
 .text-wrapper {
     position: relative;
