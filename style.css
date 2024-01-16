@@ -800,3 +800,26 @@ body {
     494px 1957px #E9F732, 1296px 431px #E9F732, 175px 1507px #E9F732, 831px 121px #E9F732,
     498px 1947px #E9F732, 617px 880px #E9F732, 240px 403px #E9F732;
 }
+
+
+.text-wrapper {
+    position: relative;
+    background-color: transparent;
+    color: var(--accentColor);
+    border: solid var(--accentColor) 2px;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px; /* 17px */
+    text-decoration: none;
+    /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
+    -webkit-tap-highlight-color: transparent;
+    width: 200px; /* set a width for the wrapping container */
+    word-wrap: break-word /* ensures the text wraps to the next line if it overflows the container */
+  }
+  
+  
