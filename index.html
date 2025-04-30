@@ -79,19 +79,20 @@
         <i class="fab fa-youtube">&nbsp;</i>youtube
       </a>
         <br>
-          <!-- Twitch Channel Embedded-->
+<!-- Twitch Channel Embedded-->
 <div class="row" align="center">
+  <h2>My Twitch Channel</h2>
   <!-- Add a placeholder for the Twitch embed -->
    <div id="twitch-embed"></div>
 
    <!-- Load the Twitch embed script -->
-   <script src="https://player.twitch.tv/?<amibame>&parent=amiba.me"></script>
+   <script src="https://player.twitch.tv/?channel=amibame&parent=amiba.me&muted=true"></script>
 
    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
    <script type="text/javascript">
      new Twitch.Embed("twitch-embed", {
        width: "100%",
-       height: 480,
+       height: 1080,
        channel: "amibame",
        muted: true
      });
